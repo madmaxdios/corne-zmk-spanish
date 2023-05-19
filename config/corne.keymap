@@ -1,55 +1,54 @@
-/*
- * Copyright (c) 2020 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include "via_spanish.h"
+#include "via_spanish_macros.h"
 
 / {
         keymap {
                 compatible = "zmk,keymap";
 
                 default_layer {
-// -----------------------------------------------------------------------------------------
-// |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-// | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-//                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
-   &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                  &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
-                        >;
-                };
-                lower_layer {
-// -----------------------------------------------------------------------------------------
-// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
-                        bindings = <
-   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-                          	        &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+KC_TAB  KC_Q  KC_W  KC_E  KC_R  KC_T                        KC_Y   KC_U  KC_I  KC_O  KC_P  KC_PSPC
+MT_WIN_CAPS  KC_A  KC_S  KC_D  KC_F  KC_G           KC_H  KC_J  KC_K  KC_L  KC_SCLN  KC_QUOT
+KC_LSFT  KC_Z  KC_X  KC_C  KC_V  KC_B                        KC_N  KC_M KC_COMM  KC_DOT  KC_SLSH  KC_RSFT
+LAY_1  KC_LALT  MT_CTRL_ENT                          KC_SPC LAY_2   LAY_3
                         >;
                 };
 
-                raise_layer {
-// -----------------------------------------------------------------------------------------
-// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+                layer_1 {
                         bindings = <
-   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
-   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
-                    	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+//esc !"·$%                                                             & 789+ trns
+KC_ESC  LS(KC_1)  LS(KC_2)  LS(KC_3)  LS(KC_4)  LS(KC_5)                LS(KC_6)  KC_7  KC_8  KC_9 KC_PLUS KC_TRNS 
+//¿<[{(=                                                                /456* NO
+LS(KC_EXCL) KC_MINUS RA(KC_ACEN_R) RA(KC_ACEN) LS(KC_8) LS(KC_0)        LS(KC_7)  KC_4 KC_5 KC_6 LS(KC_PLUS) KC_NO
+// ?>]}) NO                                                             º123- TRNS  
+LS(KC_APOS) LS(KC_MINUS) RA(KC_PLUS) RA(KC_CERI) LS(KC_9) KC_NO         KC_CIRC KC_1 KC_2 KC_3 KC_DASH KC_TRNS
+KC_TRNS KC_TRNS KC_TRNS                                                 KC_TRNS KC_0 KC_DOT
+                        >;
+                };
+
+                layer_2 {
+                        bindings = <
+// \|@#€                                                                         
+RA(KC_GRV) RA(KC_1) RA(KC_2) RA(KC_3) RA(KC_E) KC_NO      KC_PRINT KC_HOME KC_UP KC_END KC_INS KC_DEL      
+//  KC_NO KC_MINS KC_AT KC_LCBR KC_NO KC_NO
+KC_NO KC_NO KC_NO KC_NO KC_NO KC_NO                       KC_PAUS KC_LEFT KC_DOWN KC_RGHT KC_NO KC_NO
+//
+KC_TRNS KC_NO KC_NO KC_NO KC_NO KC_NO                     KC_NO KC_PGUP KC_NO KC_PGDN KC_NO KC_TRNS
+// menu
+KC_CMENU KC_TRNS KC_TRNS                                    KC_TRNS KC_TRNS KC_TRNS
+                        >;
+                };
+
+                layer_3 {
+                        bindings = <
+                       
+KC_NO  KC_F1  KC_F2  KC_F3  KC_F4  KC_F5           KC_F6  KC_F7  KC_F8  KC_F9  KC_F10  KC_F11
+KC_NO KC_NO KC_NO   KC_NO KC_NO KC_NO            KC_NO  KC_NO  KC_NO  KC_NO  KC_NO  KC_F12
+KC_NO KC_NO KC_NO   KC_NO KC_NO KC_NO         KC_NO  KC_NO  KC_NO  KC_NO  KC_NO  KC_TRNS
+KC_TRNS  KC_TRNS  KC_TRNS                          KC_TRNS  KC_TRNS  KC_TRNS
                         >;
                 };
         };
