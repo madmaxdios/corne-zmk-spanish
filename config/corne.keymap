@@ -46,7 +46,7 @@ KC_ESC
 &kp LS(LESS_THAN) 
 &kp RA(RBKT) 
 &kp RA(HASH) 
-&kp LS(N9) KC_NO         KC_CIRC KC_1 KC_2 KC_3 KC_DASH KC_TRNS
+&kp LS(N9) KC_NO         KC_CIRC KC_1 KC_2 KC_3 KC_MINUS KC_TRNS
 KC_TRNS KC_TRNS KC_TRNS                                                 KC_TRNS KC_0 KC_DOT
                         >;
                 };
