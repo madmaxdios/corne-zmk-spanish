@@ -61,7 +61,7 @@ KC_TRNS KC_TRNS KC_TRNS                                                 KC_TRNS 
 &kp RA(N3) 
 &kp RA(E) KC_NO      KC_PRINT KC_HOME KC_UP KC_END KC_INS KC_DEL      
 //  KC_NO KC_MINS KC_AT KC_LCBR KC_NO KC_NO
-KC_NO KC_NO KC_NO KC_NO KC_NO KC_NO                       KC_PAUS KC_LEFT KC_DOWN KC_RGHT KC_NO KC_NO
+KC_NO KC_NO KC_NO KC_NO KC_NO KC_NO                       KC_PAUSE KC_LEFT KC_DOWN KC_RIGHT KC_NO KC_NO
 //
 KC_TRNS KC_NO KC_NO KC_NO KC_NO KC_NO                     KC_NO KC_PGUP KC_NO KC_PGDN KC_NO KC_TRNS
 // menu
