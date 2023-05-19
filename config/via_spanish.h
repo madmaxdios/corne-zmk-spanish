@@ -47,6 +47,7 @@
 
 
 // FUNCTION KEYS
+#define KC_ESC &kp ESC
 #define KC_F1 &kp F1
 #define KC_F2 &kp F2
 #define KC_F3 &kp F3
