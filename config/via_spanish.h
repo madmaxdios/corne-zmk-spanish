@@ -88,16 +88,16 @@
 
 // Row 1
 #define KC_CIRC &kp GRAVE // º
-#define KC_1 &kp KP_N1       // 1
-#define KC_2 &kp KP_N2       // 2
-#define KC_3 &kp KP_N3       // 3
-#define KC_4 &kp KP_N4       // 4
-#define KC_5 &kp KP_N5       // 5
-#define KC_6 &kp KP_N6       // 6
-#define KC_7 &kp KP_N7       // 7
-#define KC_8 &kp KP_N8       // 8
-#define KC_9 &kp KP_N9       // 9
-#define KC_0 &kp KP_N0       // 0
+#define KC_1 &kp N1       // 1
+#define KC_2 &kp N2       // 2
+#define KC_3 &kp N3       // 3
+#define KC_4 &kp N4       // 4
+#define KC_5 &kp N5       // 5
+#define KC_6 &kp N6       // 6
+#define KC_7 &kp N7       // 7
+#define KC_8 &kp N8       // 8
+#define KC_9 &kp N9       // 9
+#define KC_0 &kp N0       // 0
 #define KC_APOS &kp MINUS   // '
 #define KC_EXCL &kp EQUAL // ¡
 // Row 2
