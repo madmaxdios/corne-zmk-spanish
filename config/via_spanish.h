@@ -126,7 +126,7 @@
 #define KC_ACEN &kp APOS      // ´
 #define KC_CERI &kp HASH      // Ç
 // Row 4
-#define KC_MINUS &kp BSLH // <
+#define KC_LESS &kp LESS_THAN // <
 #define KC_Z &kp Z        // Z
 #define KC_X &kp X        // X
 #define KC_C &kp C        // C
@@ -136,7 +136,7 @@
 #define KC_M &kp M        // M
 #define KC_COMM &kp COMMA // ,
 #define KC_DOT &kp DOT    // .
-#define KC_DASH &kp SLASH // -
+#define KC_MINUS &kp KP_MINUS // -
 
 
 
