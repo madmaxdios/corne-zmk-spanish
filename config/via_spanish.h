@@ -6,9 +6,6 @@
 #define LAY_1 &mo 1
 #define LAY_2 &mo 2
 #define LAY_3 &mo 3
-#define MT_WIN_CAPS &mt KC_WIN KC_CAPS 
-#define MT_CTRL_ENT &mt KC_LCTL KC_ENT
-
 
 
 // CONTROL CMD/WINDOWS SHIFT ALT/META/OPTION
@@ -140,5 +137,6 @@
 #define KC_MINUS &kp KP_MINUS // -
 
 
-
-
+// mt
+#define WIN_CAPS &mt KC_WIN KC_CAPS 
+#define CTRL_ENT &mt KC_LCTL KC_ENT
