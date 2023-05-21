@@ -24,7 +24,7 @@ KC_ESC &kp LS(N1) &kp LS(N2) &kp LS(N3) &kp LS(N4) &kp LS(N5)  &kp LS(N6) KC_7  
 //¿<[{(=                                /456* NO
 &kp LS(EQUAL) KC_LESS &kp RA(LBKT) &kp RA(APOS) &kp LS(N8) &kp LS(N0)    &kp LS(N7) KC_4 KC_5 KC_6 &kp LS(RBKT) KC_NO
 // ?>]}) NO                               º123- TRNS 
-&kp LS(MINUS) &kp LS(LESS_THAN) &kp RA(RBKT) &kp RA(HASH) &kp LS(N9) KC_NO     KC_CIRC KC_1 KC_2 KC_3 KC_MINUS KC_TRNS
+&kp LS(MINUS) &kp LS(KC_LESS) &kp RA(RBKT) &kp RA(HASH) &kp LS(N9) KC_NO     KC_CIRC KC_1 KC_2 KC_3 KC_MINUS KC_TRNS
 KC_TRNS KC_TRNS KC_TRNS                         KC_TRNS KC_0 KC_DOT
             >;
         };
