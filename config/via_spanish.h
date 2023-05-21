@@ -124,7 +124,7 @@
 #define KC_ACEN &kp APOS      // ´
 #define KC_CERI &kp HASH      // Ç
 // Row 4
-#define KC_LESS &kp BSLH // <
+#define KC_LESS &kp NON_US_BSLH // <
 #define KC_Z &kp Z        // Z
 #define KC_X &kp X        // X
 #define KC_C &kp C        // C
