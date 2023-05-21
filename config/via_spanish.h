@@ -124,7 +124,7 @@
 #define KC_ACEN &kp APOS      // ´
 #define KC_CERI &kp HASH      // Ç
 // Row 4
-#define KC_LESS &kp LESS_THAN // <
+#define KC_LESS &kp BSLH // <
 #define KC_Z &kp Z        // Z
 #define KC_X &kp X        // X
 #define KC_C &kp C        // C
@@ -139,7 +139,7 @@
 
 // mt
 #define WIN_CAPS &mt LWIN CAPS 
-#define CTRL_ENT &mt LCTRL ENTER
+#define CTRL_ENT &mt LCTRL ENTER  
 
 // SYS BT RGB
 #define RESET &sys_reset
