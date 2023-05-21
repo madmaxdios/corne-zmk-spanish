@@ -140,3 +140,11 @@
 // mt
 #define WIN_CAPS &mt KC_WIN KC_CAPS 
 #define CTRL_ENT &mt KC_LCTL KC_ENT
+
+// SYS BT RGB
+#define RESET &sys_reset
+#define BT_CLR &bt BT_CLR
+#define BT_NEXT &bt BT_NXT
+#define RGB_TOG &rgb_ug RGB_TOG
+#define RGB_EFF &rgb_ug RGB_EFF
+#define RGB_EFR &rgb_ug RGB_EFR
