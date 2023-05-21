@@ -143,8 +143,8 @@
 
 // SYS BT RGB
 #define RESET &sys_reset
-#define BT_CLR &bt BT_CLR
+#define BT_CLEAR &bt BT_CLR
 #define BT_NEXT &bt BT_NXT
-#define RGB_TOG &rgb_ug RGB_TOG
-#define RGB_EFF &rgb_ug RGB_EFF
-#define RGB_EFR &rgb_ug RGB_EFR
+#define RGB_TOGG &rgb_ug RGB_TOG
+#define RGB_EFFO &rgb_ug RGB_EFF
+#define RGB_EFRE &rgb_ug RGB_EFR
