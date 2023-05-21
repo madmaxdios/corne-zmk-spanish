@@ -138,8 +138,8 @@
 
 
 // mt
-#define WIN_CAPS &mt KC_WIN KC_CAPS 
-#define CTRL_ENT &mt KC_LCTL KC_ENT
+#define WIN_CAPS &mt LWIN CAPS 
+#define CTRL_ENT &mt LCTRL ENTER
 
 // SYS BT RGB
 #define RESET &sys_reset
