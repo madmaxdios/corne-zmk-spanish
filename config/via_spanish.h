@@ -141,10 +141,16 @@
 #define WIN_CAPS &mt LWIN CAPS 
 #define CTRL_ENT &mt LCTRL ENTER  
 
-// SYS BT RGB
+// SYS BT
 #define RESET &sys_reset
 #define BT_CLEAR &bt BT_CLR
-#define BT_NEXT &bt BT_NXT
+#define BT_0 &bt BT_SEL 0
+#define BT_1 &bt BT_SEL 1
+#define BT_2 &bt BT_SEL 2
+#define BT_3 &bt BT_SEL 3
+#define BT_4 &bt BT_SEL 4
+
+// rgb
 #define RGB_TOGG &rgb_ug RGB_TOG
 #define RGB_EFFO &rgb_ug RGB_EFF
 #define RGB_EFRE &rgb_ug RGB_EFR
