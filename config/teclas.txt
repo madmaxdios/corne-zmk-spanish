@@ -1,0 +1,3 @@
+#define KC_LESS &kp NON_US_BSLH // <
+#define KC_MORE &kp PIPE2 // >
+#define KC_ACEN_GU &kp DOUBLE_QUOTES // ¨
