@@ -1,3 +1,7 @@
 #define KC_LESS &kp NON_US_BSLH // <
 #define KC_MORE &kp PIPE2 // >
-#define KC_ACEN_GU &kp DOUBLE_QUOTES // ¨
+#define KC_ACEN_GU &kp DOUBLE_QUOTES // ¨  
+
+&kp EXCL &kp AT &kp HASH &kp DOLLAR &kp PERCENT &kp CARET      &kp AMPERSAND &kp ASTERISK &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp EQUAL &kp PLUS  
+&kp MINUS &kp UNDERSCORE &kp SLASH &kp QMARK &kp BACKSLASH &kp PIPE     &kp NON_US_BSLH &kp PIPE2 &kp SEMICOLON &kp COLON  &kp APOS &kp DOUBLE_QUOTES 
+ 
