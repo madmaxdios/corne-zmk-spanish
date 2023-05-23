@@ -32,11 +32,14 @@ KC_TRNS KC_TRNS KC_TRNS                         KC_TRNS KC_0 KC_DOT
         layer_2 {
             bindings = <
 // \|@#€                                     
-&kp RA(HASH) &kp RA(N1) &kp RA(N2) &kp RA(N3) &kp RA(E) KC_NO   KC_PRINT KC_HOME KC_UP KC_END KC_INS KC_DEL   
+//&kp RA(HASH) &kp RA(N1) &kp RA(N2) &kp RA(N3) &kp RA(E) KC_NO   KC_PRINT KC_HOME KC_UP KC_END KC_INS KC_DEL   
 // KC_NO KC_MINS KC_AT KC_LCBR KC_NO KC_NO
-&kp LT &kp DOT &kp GT &kp LBKT &kp LBRC &kp NUHS            KC_PAUSE KC_LEFT KC_DOWN KC_RIGHT KC_NO KC_NO
-//
-KC_TRNS KC_NO KC_NO KC_NO KC_NO KC_NO           KC_NO KC_PGUP KC_NO KC_PGDN KC_NO KC_TRNS
+//&kp LT &kp DOT &kp GT &kp LBKT &kp LBRC &kp NUHS            KC_PAUSE KC_LEFT KC_DOWN KC_RIGHT KC_NO KC_NO
+//KC_TRNS KC_NO KC_NO KC_NO KC_NO KC_NO           KC_NO KC_PGUP KC_NO KC_PGDN KC_NO KC_TRNS
+&kp COMMA &kp LESS_THAN &kp DOT &kp GREATER_THAN &kp LEFT_BRACKET &kp LEFT_BRACE    &kp RIGHT_BRACKET &kp RIGHT_BRACE &kp GRAVE &kp TILDE &kp NON_US_HASH &kp TILDE2 
+&kp EXCL &kp AT &kp HASH &kp DOLLAR &kp PERCENT &kp CARET      &kp AMPERSAND &kp ASTERISK &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp EQUAL &kp PLUS  
+&kp MINUS &kp UNDERSCORE &kp SLASH &kp QMARK &kp BACKSLASH &kp PIPE     &kp NON_US_BSLH &kp PIPE2 &kp SEMICOLON &kp COLON  &kp APOS &kp DOUBLE_QUOTES 
+ 
 // menu
 KC_CMENU KC_TRNS KC_TRNS                  KC_TRNS KC_TRNS KC_TRNS
             >;
