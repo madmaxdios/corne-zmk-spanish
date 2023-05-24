@@ -126,8 +126,6 @@
 #define ES_CERI &kp HASH      // Ç bslh
 
 // Row 4
-#define ES_LESS &kp BSLSH // < bslsh
-#define ES_LESS_R &kp LS(BSLSH) // < bslsh
 #define ES_Z &kp Z        // Z
 #define ES_X &kp X        // X
 #define ES_C &kp C        // C
