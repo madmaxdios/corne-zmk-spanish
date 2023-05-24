@@ -36,7 +36,7 @@
 #define ES_PGDN &kp PG_DN
 #define ES_HOME &kp HOME
 #define ES_END &kp END
-#define ES_INS &kp END
+#define ES_INS &kp INS
 #define ES_PRINT &kp PSCRN
 #define ES_PAUSE &kp PAUSE_BREAK
 
