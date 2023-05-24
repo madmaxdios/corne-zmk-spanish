@@ -10,46 +10,46 @@
 
         default_layer {
             bindings = <
-KC_TAB KC_Q KC_W KC_E KC_R KC_T         KC_Y  KC_U KC_I KC_O KC_P KC_BSPC
-WIN_CAPS KC_A KC_S KC_D KC_F KC_G    KC_H KC_J KC_K KC_L KC_EGNE KC_ACEN
-KC_LSFT KC_Z KC_X KC_C KC_V KC_B        KC_N KC_M KC_COMM KC_DOT KC_MINUS KC_RSFT
-LAY_1 KC_LALT CTRL_ENT               KC_SPC LAY_2  LAY_3
+ES_TAB ES_Q ES_W ES_E ES_R ES_T         ES_Y  ES_U ES_I ES_O ES_P ES_BSPC
+WIN_CAPS ES_A ES_S ES_D ES_F ES_G       ES_H ES_J ES_K ES_L ES_EGNE ES_ACEN
+ES_LSFT ES_Z ES_X ES_C ES_V ES_B        ES_N ES_M ES_COMM ES_DOT ES_DASH ES_RSFT
+LAY_1 ES_LALT CTRL_ENT                  ES_SPC LAY_2  LAY_3
             >; 
         };
 
         layer_1 {
             bindings = <
-//esc !"·$%                               & 789+ trns
-KC_ESC &kp LS(N1) &kp LS(N2) &kp LS(N3) &kp LS(N4) &kp LS(N5)  &kp LS(N6) KC_7  KC_8   KC_9 KC_PLUS    KC_TRNS 
-//¿<[{(=                                /456* NO
-&kp LS(EQUAL) KC_LESS &kp RA(LBKT) &kp RA(APOS) &kp LS(N8) &kp LS(N0)    &kp LS(N7) KC_4 KC_5 KC_6 &kp LS(RBKT) KC_NO
-// ?>]}) NO                               º123- TRNS 
-&kp LS(MINUS) &kp LS(NON_US_BSLH) &kp RA(RBKT) &kp RA(HASH) &kp LS(N9) &sys_reset     KC_CIRC KC_1 KC_2 KC_3 KC_MINUS KC_TRNS
-KC_TRNS KC_TRNS KC_TRNS                         KC_TRNS KC_0 KC_DOT
+//esc !"·$%                                                         & 789+ trns
+ES_ESC ES_EXCL_R  ES_DOT_MID ES_DOLL ES_PERC                        ES_AMPER ES_7  ES_8   ES_9 ES_PLUS    ES_TRNS 
+//¿<[{(=                                                            /456* NO
+ES_QUEST ES_LESS ES_CORCH ES_LLAVE ES_PAREN ES_EQUAL                ES_SLASH ES_4 ES_5 ES_6 ES_STAR ES_NO
+// ?>]}) SYS_RESET                                                  º123- TRNS 
+ES_QUEST_R ES_LESS_R ES_CORCH_R ES_LLAVE_R ES_PAREN_R &sys_reset    ES_CIRC ES_1 ES_2 ES_3 ES_DASH ES_TRNS
+ES_TRNS ES_TRNS ES_TRNS                                             ES_TRNS ES_0 ES_DOT
             >;
         };
 
         layer_2 {
             bindings = <
 // \|@#€                                     
-&kp RA(HASH) &kp RA(N1) &kp RA(N2) &kp RA(N3) &kp RA(E) KC_NO   KC_PRINT KC_HOME KC_UP KC_END KC_INS KC_DEL   
-// KC_NO KC_MINS KC_AT KC_LCBR KC_NO KC_NO
-&kp LT &kp DOT &kp GT &kp LBKT &kp LBRC &kp NUHS            KC_PAUSE KC_LEFT KC_DOWN KC_RIGHT KC_NO KC_NO
-//
-KC_TRNS KC_NO KC_NO KC_NO KC_NO KC_NO           KC_NO KC_PGUP KC_NO KC_PGDN KC_NO KC_TRNS
+ES_BSLSH ES_PIPE ES_AT ES_HASH ES_EURO ES_NO                ES_PRINT ES_HOME ES_UP ES_END ES_INS ES_DEL   
+// TRNS NO NO  ^ NO NO                                      PAUSE  LEFT DOWN RIGHT  ' NO
+ES_TRNS ES_NO ES_NO ES_ACEN_CIR ES_NO ES_NO                 ES_PAUSE ES_LEFT ES_DOWN ES_RIGHT ES_APOS ES_NO
+//                                                          ` PGUP NO PGDN NO TRNS
+ES_TRNS ES_NO ES_NO ES_NO ES_NO ES_NO                       ES_ACEN_R ES_PGUP ES_NO ES_PGDN ES_NO ES_TRNS
 // menu
-KC_CMENU KC_TRNS KC_TRNS                  KC_TRNS KC_TRNS KC_TRNS
+ES_CMENU ES_TRNS ES_TRNS                                    ES_TRNS ES_TRNS ES_TRNS
             >;
         };
 
         layer_3 {
             bindings = <
-            
-KC_NO KC_F1 KC_F2 KC_F3 KC_F4 KC_F5             KC_F6 KC_F7 KC_F8 KC_F9 KC_F10 KC_F11
-RGB_TOGG RGB_EFFO RGB_EFRE KC_NO KC_NO KC_NO      BT_CLEAR BT_0 BT_1 BT_2 BT_3 KC_F12
-KC_NO BT_CLEAR KC_NO  KC_NO KC_NO KC_NO     &sys_reset KC_NO KC_NO KC_NO KC_NO KC_TRNS
-KC_TRNS KC_TRNS KC_TRNS             KC_TRNS KC_TRNS KC_TRNS
+ES_NO ES_F1 ES_F2 ES_F3 ES_F4 ES_F5             ES_F6 ES_F7 ES_F8 ES_F9 ES_F10 ES_F11
+RGB_TOGG RGB_EFFO RGB_EFRE ES_NO ES_NO ES_NO    BT_CLEAR BT_0 BT_1 BT_2 BT_3 ES_F12
+ES_NO BT_CLEAR ES_NO  ES_NO ES_NO ES_NO         &sys_reset ES_NO ES_NO ES_NO ES_NO ES_TRNS
+ES_TRNS ES_TRNS ES_TRNS                         ES_TRNS ES_TRNS ES_TRNS
             >;
         };
     };
 };
+// cierra llave, less
