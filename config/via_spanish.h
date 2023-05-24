@@ -164,7 +164,7 @@
 #define ES_CORCH &kp RA(LBKT) // [
 #define ES_CORCH_R &kp RA(RBKT) // ]
 #define ES_LLAVE &kp RA(APOS) // {
-#define ES_LLAVE_R &kp RA(HASH) // }
+#define ES_LLAVE_R &kp RA(BACKSLASH) // }
 
 #define ES_EURO &kp RA(E) // €
 #define ES_LESS &kp NON_US_BSLH // <
