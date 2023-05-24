@@ -1,0 +1,38 @@
+# Corne Keybaord Config Spanish ZMK
+
+## Inicio
+* Se trata de mi configuración del corne keyboard con el nice!nano y una batería de 500 mah, con ZMK para su config.
+  * Gracias a [Tecleate](https://es.wallapop.com/app/user/exonb-51444299-9nz08dgy9d6o/published) (wallapop Madrid).
+* Video explicativo de como hacer la instalación
+  * https://www.youtube.com/watch?v=YVi7ROevBAI
+* [Repositorio]() del anterior video.
+
+## Mi configuración
+* Por una parte la configuración de teclado en español con todas sus variantes.
+* Se trata de 2 ficheros para configurar las teclas:
+  * [corne.keymap](config/corne.keymap) donde están la disposición de teclas.
+  * [via_spanish.h](config/via_spanish.h) donde se definen las teclas
+* Por otra parte el fichero de configuración [corne.conf](config/corne.conf) donde se encuentra las configuraciones
+  * Para que duré más la batería al suspenderse el teclado cuando pasa más de 120secs, y se "duerme" al pasar 600secs, muy importante sobre todo si tienes una batería de 100mah.
+  * Se activa la posibilidad de encender las luces de debajo del teclado.
+  * Se desactiva el que intente forzadamente mostrar la batería en el dispositivo Bluetooth que tengas conectado.
+
+## Pros
+* Carencia de cables por medio, sobre todo si tienes niños por casa.
+* Puedes conectar con varios dispositivos a la vez, y es instantáneo el seleccionar uno u otro, como el PC, móvil tv etc.
+
+## Contras
+* Según el receptor de Bluetooth y la distancia, el teclado derecho a veces da unas milésimas de retraso, he comprobado que cuanto más alejados los teclados (unos 60 cm) se acentúa.
+* Si compras la batería de 100mah tendrás que cargar cada semana por lo que dicen.
+* Pierdes la posibilidad de pantalla OLED pero sin embargo hay una pantalla E-INK [nice!view](https://nicekeyboards.com/nice-view/) en la que te muestra el nivel de batería y cual de los 5 perfiles Bluetooth tienes seleccionado.
+
+## Más páginas de interés
+* [github zmk](https://github.com/zmkfirmware/zmk).
+* [listado de teclas](https://zmk.dev/docs/codes/keyboard-keypad).
+
+## Corne  configuración spanish con QMK con cable
+* No se puede configurar con QMK a través de la web de VIA si se usa nice!nano inhalambrico con bluetooth, este apartado es si lo tienes con cable.
+* Configuración en [VIA](https://usevia.app/#/)
+* [Video](https://www.youtube.com/watch?v=YAdTccaOKyw) explicativo de VIA.
+* [Listado](https://docs.qmk.fm/#/keycodes) de teclas en QMK.
+* Dejo la configuración de QMK en el fichero [crkbd.json](crkbd.json), la cual se puede cargar en VIA y trabajar sobre ella.
