@@ -24,7 +24,7 @@ ES_ESC ES_EXCL_R  ES_DOT_MID ES_DOLL ES_PERC                        ES_AMPER ES_
 //¿<[{(=                                                            /456* NO
 ES_QUEST ES_LESS ES_CORCH ES_LLAVE ES_PAREN ES_EQUAL                ES_SLASH ES_4 ES_5 ES_6 ES_STAR ES_NO
 // ?>]}) SYS_RESET                                                  º123- TRNS 
-ES_QUEST_R ES_LESS_R ES_CORCH_R ES_LLAVE_R ES_PAREN_R &sys_reset    ES_CIRC ES_1 ES_2 ES_3 ES_DASH ES_TRNS
+ES_QUEST_R ES_MORE ES_CORCH_R ES_LLAVE_R ES_PAREN_R &sys_reset    ES_CIRC ES_1 ES_2 ES_3 ES_DASH ES_TRNS
 ES_TRNS ES_TRNS ES_TRNS                                             ES_TRNS ES_0 ES_DOT
             >;
         };

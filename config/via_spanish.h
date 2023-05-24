@@ -169,6 +169,9 @@
 #define ES_LLAVE_R &kp RA(HASH) // }
 
 #define ES_EURO &kp RA(E) // €
+#define ES_LESS &kp NON_US_BSLH // <
+#define ES_MORE &kp PIPE2 // >
+#define ES_ACEN_GU &kp DOUBLE_QUOTES // ¨ 
 
 
 
