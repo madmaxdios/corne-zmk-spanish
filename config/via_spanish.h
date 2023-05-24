@@ -135,7 +135,7 @@
 #define ES_M &kp M        // M
 #define ES_COMM &kp COMMA // , ,
 #define ES_DOT &kp DOT    // . .
-#define ES_DASH &kp KP_MINUS // - /
+#define ES_DASH &kp SLASH // - /
 
 // symbols shift
 #define ES_EXCL_R &kp LS(N1) // !
