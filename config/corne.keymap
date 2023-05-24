@@ -32,8 +32,8 @@ ES_TRNS ES_TRNS ES_TRNS                                             ES_TRNS ES_0
         layer_2 {
             bindings = <
 // \|@# []<>
-ES_BSL      SH ES_PIPE ES_AT ES_HASH ES_EURO ES_NO                ES_PRINT ES_HOME ES_UP ES_END ES_INS ES_DEL
-º// TRNS NO NO  ^ NO NO                                      PAUSE  LEFT DOWN RIGHT  ' NO
+ES_BSLSH ES_PIPE ES_AT ES_HASH ES_EURO ES_NO                ES_PRINT ES_HOME ES_UP ES_END ES_INS ES_DEL
+// TRNS NO NO  ^ NO NO                                      PAUSE  LEFT DOWN RIGHT  ' NO
 ES_TRNS ES_NO ES_NO ES_ACEN_CIR ES_NO ES_NO                 ES_PAUSE ES_LEFT ES_DOWN ES_RIGHT ES_APOS ES_NO
 //                                                          ` PGUP NO PGDN NO TRNS
 ES_TRNS ES_NO ES_NO ES_NO ES_NO ES_NO                       ES_ACEN_R ES_PGUP ES_NO ES_PGDN ES_NO ES_TRNS
