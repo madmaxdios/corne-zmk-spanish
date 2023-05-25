@@ -190,3 +190,7 @@
 #define RGB_TOGG &rgb_ug RGB_TOG
 #define RGB_EFFO &rgb_ug RGB_EFF
 #define RGB_EFRE &rgb_ug RGB_EFR
+
+// desktop left windows
+#define ES_DESK_L &kp LWIN(LC(LEFT))
+#define ES_DESK_R &kp LWIN(LC(RIGHT))
