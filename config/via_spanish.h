@@ -192,5 +192,5 @@
 #define RGB_EFRE &rgb_ug RGB_EFR
 
 // desktop left windows
-#define ES_DESK_L &kp LWIN(LC(LEFT))
-#define ES_DESK_R &kp LWIN(LC(RIGHT))
+#define ES_DESK_L &kp LG(LC(LEFT))
+#define ES_DESK_R &kp LG(LC(RIGHT))
