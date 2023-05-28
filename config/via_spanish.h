@@ -176,6 +176,7 @@
 // mt
 #define WIN_CAPS &mt LWIN CAPS 
 #define CTRL_ENT &mt LCTRL ENTER  
+#define LT_LAY2_ENT &lt 2 ENTER
 
 // SYS BT
 #define RESET &sys_reset

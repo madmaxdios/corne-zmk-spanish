@@ -13,7 +13,7 @@
 ES_TAB ES_Q ES_W ES_E ES_R ES_T         ES_Y  ES_U ES_I ES_O ES_P ES_BSPC
 WIN_CAPS ES_A ES_S ES_D ES_F ES_G       ES_H ES_J ES_K ES_L ES_EGNE ES_ACEN
 ES_LSFT ES_Z ES_X ES_C ES_V ES_B        ES_N ES_M ES_COMM ES_DOT ES_DASH ES_RSFT
-LAY_1 ES_LALT CTRL_ENT                  ES_SPC LAY_2  LAY_3
+LAY_1 ES_LALT CTRL_ENT                  ES_SPC LT_LAY2_ENT  LAY_3
             >; 
         };
 
@@ -48,6 +48,15 @@ ES_NO ES_F1 ES_F2 ES_F3 ES_F4 ES_F5                ES_F6 ES_F7 ES_F8 ES_F9 ES_F1
 RGB_TOGG RGB_EFFO RGB_EFRE ES_NO ES_NO BT_CLEAR    ES_NO BT_0 BT_1 BT_2 BT_3 ES_F12
 ES_NO ES_NO ES_NO ES_NO ES_NO ES_NO                ES_NO ES_DESK_L ES_DESK_R ES_NO ES_NO ES_TRNS
 ES_TRNS ES_TRNS ES_TRNS                             ES_TRNS ES_TRNS ES_TRNS
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+ES_NO ES_NO ES_NO ES_NO ES_NO   ES_NO ES_NO ES_NO ES_NO ES_NO 
+ES_NO ES_NO ES_NO ES_NO ES_NO   ES_NO ES_NO ES_NO ES_NO ES_NO 
+ES_NO ES_NO ES_NO ES_NO ES_NO   ES_NO ES_NO ES_NO ES_NO ES_NO 
+ES_TRNS ES_TRNS ES_TRNS         ES_TRNS  ES_TRNS
             >;
         };
     };
