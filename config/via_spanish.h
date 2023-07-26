@@ -197,12 +197,39 @@
 #define ES_DESK_R &kp LG(LC(RIGHT))
 
 // natural editor
- fixme_natural_macro(fixme_natural_macro,
-        bindings = < &kp LC(C) &kp END &kp RET >
-  , < &kp W &kp R &kp I &kp T &kp E &kp SPACE  >
-  , < &kp MINUS &kp LC(V) &kp MINUS &kp SPACE >
-  , < &kp LC(V) &kp LS(N7) &kp LS(RBKT) &kp SPACE >
-  , < &kp F &kp I &kp X &kp M &kp E &kp SPACE  >
-  , < &kp B &kp O &kp R &kp R &kp A &kp R  > ;
-    )
-    
+//  ixme_natural_macro(fixme_natural_macro,
+//         bindings = < &kp LC(C) &kp END &kp RET >
+//   , < &kp W &kp R &kp I &kp T &kp E &kp SPACE  >
+//   , < &kp MINUS &kp LC(V) &kp MINUS &kp SPACE >
+//   , < &kp LC(V) &kp LS(N7) &kp LS(RBKT) &kp SPACE >
+//   , < &kp F &kp I &kp X &kp M &kp E &kp SPACE  >
+//   , < &kp B &kp O &kp R &kp R &kp A &kp R  > ;
+//     )
+
+// #define MACRO(name, keys)           \
+// name: name##_macro {                \
+// 	label = #name;                    \
+// 	compatible = "zmk,behavior-macro";\
+// 	#binding-cells = <0>;             \
+// 	tap-ms = <1>;                     \
+// 	wait-ms = <1>;                    \
+// 	bindings = <keys>;                \
+// };
+
+/ {
+	macros {
+		fixme_natural_macro: fixme_natural_macro {
+            label = "fixme_natural_macro";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = < &kp LC(C) &kp END &kp RET >
+                , < &kp W &kp R &kp I &kp T &kp E &kp SPACE  >
+                , < &kp MINUS &kp LC(V) &kp MINUS &kp SPACE >
+                , < &kp LC(V) &kp LS(N7) &kp LS(RBKT) &kp SPACE >
+                , < &kp F &kp I &kp X &kp M &kp E &kp SPACE  >
+                , < &kp B &kp O &kp R &kp R &kp A &kp R  > ;
+        };
+	};
+};
+// }}}
