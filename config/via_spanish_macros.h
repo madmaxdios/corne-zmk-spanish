@@ -8,4 +8,3 @@
 // #define ALTGR_PERC RA(KC_5)
 // #define ALTGR_AMPR RA(KC_6) 
 // #define S(KC_NUBS)
-      

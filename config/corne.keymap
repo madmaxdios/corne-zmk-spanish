@@ -44,10 +44,10 @@ ES_CMENU ES_TRNS ES_TRNS                                    ES_TRNS ES_TRNS ES_T
 
         layer_3 {
             bindings = <
-ES_NO ES_F1 ES_F2 ES_F3 ES_F4 ES_F5                ES_F6 ES_F7 ES_F8 ES_F9 ES_F10 ES_F11
-RGB_TOGG RGB_EFFO RGB_EFRE ES_NO ES_NO BT_CLEAR    ES_NO BT_0 BT_1 BT_2 BT_3 ES_F12
-ES_NO ES_NO ES_NO ES_NO ES_NO ES_NO                ES_NO ES_DESK_L ES_DESK_R ES_NO ES_NO ES_TRNS
-ES_TRNS ES_TRNS ES_TRNS                             ES_TRNS ES_TRNS ES_TRNS
+ES_NO ES_F1 ES_F2 ES_F3 ES_F4 ES_F5                                 ES_F6 ES_F7 ES_F8 ES_F9 ES_F10 ES_F11
+RGB_TOGG RGB_EFFO RGB_EFRE ES_NO &fixme_natural_macro BT_CLEAR      ES_NO BT_0 BT_1 BT_2 BT_3 ES_F12
+ES_NO ES_NO ES_NO ES_NO ES_NO ES_NO                                 ES_NO ES_DESK_L ES_DESK_R ES_NO ES_NO ES_TRNS
+ES_TRNS ES_TRNS ES_TRNS                                             ES_TRNS ES_TRNS ES_TRNS
             >;
         };
 

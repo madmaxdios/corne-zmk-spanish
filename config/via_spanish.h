@@ -195,3 +195,14 @@
 // desktop left windows
 #define ES_DESK_L &kp LG(LC(LEFT))
 #define ES_DESK_R &kp LG(LC(RIGHT))
+
+// natural editor
+ fixme_natural_macro(fixme_natural_macro,
+        bindings = < &kp LC(C) &kp END &kp RET >
+  , < &kp W &kp R &kp I &kp T &kp E &kp SPACE  >
+  , < &kp MINUS &kp LC(V) &kp MINUS &kp SPACE >
+  , < &kp LC(V) &kp LS(N7) &kp LS(RBKT) &kp SPACE >
+  , < &kp F &kp I &kp X &kp M &kp E &kp SPACE  >
+  , < &kp B &kp O &kp R &kp R &kp A &kp R  > ;
+    )
+    
