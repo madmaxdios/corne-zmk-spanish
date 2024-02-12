@@ -159,6 +159,7 @@
 #define ES_PIPE &kp RA(N1) // |
 #define ES_AT &kp RA(N2) // @
 #define ES_HASH &kp RA(N3) // #
+#define ES_VIRGULILLA &kp RA(N4) // ~
 #define ES_NOT &kp RA(N6) // ¬
 
 #define ES_CORCH &kp RA(LBKT) // [

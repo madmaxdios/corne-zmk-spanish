@@ -21,9 +21,9 @@ LAY_1 ES_LALT CTRL_ENT                  ES_SPC LT_LAY2_ENT  LAY_3
             bindings = <
 //esc !"·$%                                                         & 789+ trns
 ES_ESC ES_EXCL_R ES_DOUB_APO ES_DOT_MID ES_DOLL ES_PERC             ES_AMPER ES_7  ES_8   ES_9 ES_PLUS    ES_TRNS 
-//¿<[{(=                                                            /456* NO
+//¿<{[(=                                                            /456* NO
 ES_QUEST ES_LESS ES_LLAVE ES_CORCH ES_PAREN ES_EQUAL                ES_SLASH ES_4 ES_5 ES_6 ES_STAR ES_NO
-// ?>]}) SYS_RESET                                                  º123- TRNS 
+// ?>}]) SYS_RESET                                                  º123- TRNS 
 ES_QUEST_R ES_MORE ES_LLAVE_R ES_CORCH_R ES_PAREN_R ES_DESK_L    ES_CIRC ES_1 ES_2 ES_3 ES_DASH ES_TRNS
 ES_TRNS ES_TRNS ES_TRNS                                             ES_TRNS ES_0 ES_DOT
             >;
@@ -31,8 +31,8 @@ ES_TRNS ES_TRNS ES_TRNS                                             ES_TRNS ES_0
 
         layer_2 {
             bindings = <
-// \|@# []<>
-ES_BSLSH ES_PIPE ES_AT ES_HASH ES_EURO ES_NO                ES_PRINT ES_HOME ES_UP ES_END ES_INS ES_DEL
+// \|@# €~                                                            PRINT HOME UP END INS DEL
+ES_BSLSH ES_PIPE ES_AT ES_HASH ES_EURO ES_VIRGULILLA                ES_PRINT ES_HOME ES_UP ES_END ES_INS ES_DEL
 // TRNS NO NO  NO NO NO                                      PAUSE  LEFT DOWN RIGHT  '  MENU
 ES_TRNS ES_NO ES_NO ES_NO ES_NO ES_NO                       ES_PAUSE ES_LEFT ES_DOWN ES_RIGHT ES_APOS ES_CMENU
 //                                                          ` PGUP ^ PGDN NO TRNS
