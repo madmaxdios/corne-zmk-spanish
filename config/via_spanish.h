@@ -161,6 +161,7 @@
 #define ES_HASH &kp RA(N3) // #
 #define ES_VIRGULILLA &kp RA(N4) // ~
 #define ES_NOT &kp RA(N6) // ¬
+#define ES_CEDILLA &kp BACKSLASH // ç''
 
 #define ES_CORCH &kp RA(LBKT) // [
 #define ES_CORCH_R &kp RA(RBKT) // ]

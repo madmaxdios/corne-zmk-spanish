@@ -33,8 +33,8 @@ ES_TRNS ES_TRNS ES_TRNS                                             ES_TRNS ES_0
             bindings = <
 // \|@# €~                                                            PRINT HOME UP END INS DEL
 ES_BSLSH ES_PIPE ES_AT ES_HASH ES_EURO ES_VIRGULILLA                ES_PRINT ES_HOME ES_UP ES_END ES_INS ES_DEL
-// TRNS NO NO  NO NO NO                                      PAUSE  LEFT DOWN RIGHT  '  MENU
-ES_TRNS ES_NO ES_NO ES_NO ES_NO ES_NO                       ES_PAUSE ES_LEFT ES_DOWN ES_RIGHT ES_APOS ES_CMENU
+// TRNS NO NO  NO NO NO                                      PAUSE  LEFT DOWN RIGHT  '  ç
+ES_TRNS ES_NO ES_NO ES_NO ES_NO ES_NO                       ES_PAUSE ES_LEFT ES_DOWN ES_RIGHT ES_APOS ES_CEDILLA
 //                                                          ` PGUP ^ PGDN NO TRNS
 ES_TRNS ES_NO ES_NO ES_NO ES_NO ES_NO                       ES_ACEN_R ES_PGUP ES_ACEN_CIR ES_PGDN ES_NO ES_TRNS
 // menu
