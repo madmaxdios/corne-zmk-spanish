@@ -2,10 +2,19 @@
 
 ## Inicio
 * Se trata de mi configuración del corne keyboard con el nice!nano y una batería de 500 mah, con ZMK para su config.
-  * Gracias a [Tecleate](https://es.wallapop.com/app/user/exonb-51444299-9nz08dgy9d6o/published) (wallapop Madrid).
+  * Gracias a [Tecleate](https://tecleate.com/).
 * Video explicativo de como hacer la instalación
   * https://www.youtube.com/watch?v=YVi7ROevBAI
 * [Repositorio]() del anterior video.
+
+## como cargar la configuración
+* creas un repo en github nuevo
+* metes todo el codigo de este repositorio en el mismo y haces un push.
+* entra en acción en la pesta de github "actions" que tarda un poco y te genera un archivo `firmware.zip` donde se encuentran el fichero de la izquierda y el de la derecha.
+* lo descomprimes
+* conectas una lado al usb, reseteas un lado pulsando **2** veces el botón de reset, y te aparece el explorador de windows con los archivos que contiene su memoria.
+* Copias el fichero conrrespondiente que has descomprimido (`corne_left-nice_nano_v2-zmk.uf2`) y esperas a que se configure (suena el tipico sonido de nuevo dispositivo encontrado).
+* Haces lo mismo con el otro, conectar usb c, reset 2 pulsaciones y copiar archivo.
 
 ## Mi configuración
 * Por una parte la configuración de teclado en español con todas sus variantes.
