@@ -2,7 +2,6 @@
 
 ## Inicio
 * Se trata de mi configuración del corne keyboard con el nice!nano y una batería de 500 mah, con ZMK para su config.
-  * Gracias a [Tecleate](https://tecleate.com/).
 * Video explicativo de como hacer la instalación
   * https://www.youtube.com/watch?v=YVi7ROevBAI
 * [Repositorio]() del anterior video.
