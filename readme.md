@@ -17,6 +17,23 @@
 - Copias el fichero conrrespondiente que has descomprimido (`corne_left-nice_nano_v2-zmk.uf2`) y esperas a que se configure (suena el tipico sonido de nuevo dispositivo encontrado).
 - Haces lo mismo con el otro, conectar usb c, reset 2 pulsaciones y copiar archivo.
 
+## [ZMK] Emparejar por Bluetooth la primera vez
+
+Si acabas de cargar los ficheros y el teclado no aparece en el Bluetooth del móvil:
+
+1. **Resetea los dos lados antes de nada** (solo hace falta la primera vez, o si algo se queda raro): en cada lado, reset 2 veces y copia [settings_reset-nice_nano_v2-zmk.uf2](settings_reset-nice_nano_v2-zmk.uf2). Después vuelve a copiar el fichero del teclado (`corne_left...uf2` / `corne_right...uf2`). Esto borra emparejamientos viejos que impiden que aparezca.
+2. **Enciende los dos lados con la batería** (interruptor de la placa en ON) y desconecta el cable USB. Los dos lados se emparejan entre sí solos al encender; solo el **izquierdo** se empareja con el móvil.
+3. **Elige un perfil Bluetooth**: mantén pulsada la tecla de la capa 3 (`LAY_3`, la última tecla del pulgar derecho) y pulsa en la mano derecha `J`, `K`, `L` o `Ñ`, que son los perfiles `BT_0` a `BT_3`. Pulsar un perfil que está libre pone el teclado a anunciarse.
+4. **Búscalo en el móvil**: Ajustes → Bluetooth → buscar dispositivos. Debe salir como **Corne**. Pulsa sobre él para emparejar.
+5. Para cambiar de dispositivo, repite el paso 3 con otro perfil (cada perfil guarda un dispositivo distinto).
+
+Si sigue sin aparecer:
+
+- Borra el teclado de la lista de Bluetooth del móvil ("olvidar dispositivo").
+- En la capa 3 pulsa `BT_CLEAR` (la tecla `G`, a la derecha de la mano izquierda) para borrar el perfil actual y vuelve a probar.
+- Si no resulta, repite el paso 1 (settings_reset) en los dos lados.
+- Comprueba que la batería está cargada y que el interruptor de cada lado esté en ON.
+
 ## [ZMK] Mi configuración
 
 - Por una parte la configuración de teclado en español con todas sus variantes.
